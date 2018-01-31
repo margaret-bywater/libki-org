@@ -5,6 +5,7 @@ branches:
   - master
 
 before_install:
+- gem install jekyll
 - gem install rdiscount
 
 install:
