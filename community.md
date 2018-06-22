@@ -26,6 +26,9 @@ permalink: /community/
     <p>
         For server installation, check out the server <a href="https://github.com/Libki/libki-server/blob/master/README.md">README</a> and the <a href="https://github.com/Libki/libki-server/wiki">server wiki</a> on GitHub.
     </p>
+    <p>
+        An official manual is currently in the works! Browse to <a href="https://manual.libki.org">manual.libki.org</a> to check it out. If you are interested in contribuing to the Libki manual, please let us know!
+    </p>
 </div>
 
 <div class="divider"></div>
