@@ -29,6 +29,7 @@ permalink: /about/
         <li>Cross-platform client</li>
         <li>SIP2 Authentication ( single sign-on with your SIP2 compliant ILS )</li>
         <li>Intuitive, easy to use interface</li>
+        <li>Print management power by Google Cloud Print</li>
     </ul>
 </div>
 
