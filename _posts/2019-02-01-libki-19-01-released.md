@@ -20,11 +20,11 @@ As usual, it's been too long since the last official release! Libki has gained a
 It's still a work in progress, but you can view the manual here at https://manual.libki.org/
 
 ### Downloads
-Server: https://github.com/Libki/libki-server/releases/tag/v19.01
+Server: <https://github.com/Libki/libki-server/releases/tag/v19.01>
 
-Client: https://github.com/Libki/libki-client/releases/tag/v19.01
+Client: <https://github.com/Libki/libki-client/releases/tag/v19.01>
 
-Manual: https://manual.libki.org
+Manual: <https://manual.libki.org>
 
 Enjoy!
 Kyle
