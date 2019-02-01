@@ -2,7 +2,6 @@
 layout: post
 title:  "Libki 19.01 Released!"
 ---
-## Libki 19.01 Released!
 
 As usual, it's been too long since the last official release! Libki has gained a ton of features since the last official release two years ago. These additions include:
 * Print management! It's basic ( manual release ), but it's here! Powered by Google Cloud Print.
