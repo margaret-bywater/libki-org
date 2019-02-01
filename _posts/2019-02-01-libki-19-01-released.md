@@ -21,7 +21,10 @@ It's still a work in progress, but you can view the manual here at https://manua
 
 ### Downloads
 Server: https://github.com/Libki/libki-server/releases/tag/v19.01
+
 Client: https://github.com/Libki/libki-client/releases/tag/v19.01
+
+Manual: https://manual.libki.org
 
 Enjoy!
 Kyle
