@@ -17,7 +17,7 @@ As usual, it's been too long since the last official release! Libki has gained a
 * Ability to set time zone of server instance
 
 ### We have a manual!
-It's still a work in progress, but you can view the manual here at https://manual.libki.org/
+It's still a work in progress, but you can view the manual here at <https://manual.libki.org/>
 
 ### Downloads
 Server: <https://github.com/Libki/libki-server/releases/tag/v19.01>
