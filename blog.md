@@ -6,7 +6,7 @@ permalink: /blog/
 
 <h1 class="page-title">{{ page.title | escape }}</h1>
 
-<ul class="collection">
+<ul class="collection" markdown="0">
 {% for post in site.posts %}
 <li class="collection-item avatar">
 {% assign date_format = site.minima.date_format | default: "%m/%d" %}
