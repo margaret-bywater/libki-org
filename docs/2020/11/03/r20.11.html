@@ -6,14 +6,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
 
-    <title>Blog</title>
-    <meta name="description" content="Libki is a cross-platform Open Source computer reservation &amp; time management system." />
+    <title>Libki r20.11 is released!</title>
+    <meta name="description" content="Libki r20.11 is offically out!" />
 
   
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="/assets/materialize.css" />
     <link rel="stylesheet" type="text/css" media="screen,projection" href="/assets/main.css">
-    <link rel="canonical" href="/blog/" />
+    <link rel="canonical" href="/2020/11/03/r20.11.html" />
     <link rel="alternate" type="application/rss+xml" title="Libki Kiosk Management System" href="/feed.xml" />
   
     
@@ -122,82 +122,82 @@
 
 
         <div class="container">
+    <div class="section">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-    <h1 class="page-title">Blog</h1>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Libki r20.11 is released!</h1>
+        <p class="post-meta">
+          <time datetime="2020-11-03T00:00:00+00:00" itemprop="datePublished">
+            
+            Nov 3, 2020
+          </time>
+          </p>
+      </header>
 
-<div class="section">
-  <div class="container last-post">
-    <section>
-      <ul class="collection">
-        
-          <li class="collection-item avatar">
-            
-            <div class="date-post">11/03</div>
-            <span class="title"><a class="post-link" href="/2020/11/03/r20.11.html">Libki r20.11 is released!</a></span>
-            <p>
-              <p>Libki r20.11 is offically out!</p> <p>Libki r20.11 includes Libki Server...
-            </p>
-            <a href="/2020/11/03/r20.11.html" class="secondary-content"><i class="material-icons">navigate_next</i></a>
-          </li>
-        
-          <li class="collection-item avatar">
-            
-            <div class="date-post">05/04</div>
-            <span class="title"><a class="post-link" href="/2020/05/04/release_r20_05.html">Libki r20.05 Released!</a></span>
-            <p>
-              <p>I am proud to announce the release of Libki r20.05!</p>...
-            </p>
-            <a href="/2020/05/04/release_r20_05.html" class="secondary-content"><i class="material-icons">navigate_next</i></a>
-          </li>
-        
-          <li class="collection-item avatar">
-            
-            <div class="date-post">05/06</div>
-            <span class="title"><a class="post-link" href="/2019/05/06/opensourcedotcom.html">Libki featured on opensource.com!</a></span>
-            <p>
-              <p>An article about Libki by Don Watkins has been featured...
-            </p>
-            <a href="/2019/05/06/opensourcedotcom.html" class="secondary-content"><i class="material-icons">navigate_next</i></a>
-          </li>
-        
-          <li class="collection-item avatar">
-            
-            <div class="date-post">04/18</div>
-            <span class="title"><a class="post-link" href="/2019/04/18/thanks.html">Coming Attractions: User names and categories!</a></span>
-            <p>
-              <p>I would like to thank Bouzid Fergani from InLibro for...
-            </p>
-            <a href="/2019/04/18/thanks.html" class="secondary-content"><i class="material-icons">navigate_next</i></a>
-          </li>
-        
-          <li class="collection-item avatar">
-            
-            <div class="date-post">02/01</div>
-            <span class="title"><a class="post-link" href="/2019/02/01/libki-19-01-released.html">Libki 19.01 Released!</a></span>
-            <p>
-              <p>As usual, it’s been too long since the last official...
-            </p>
-            <a href="/2019/02/01/libki-19-01-released.html" class="secondary-content"><i class="material-icons">navigate_next</i></a>
-          </li>
-        
-          <li class="collection-item avatar">
-            
-            <div class="date-post">01/31</div>
-            <span class="title"><a class="post-link" href="/2018/01/31/welcome-to-the-new-site.html">Welcome To The New Site</a></span>
-            <p>
-              <p>Welcome to the new Libki.org! I hope you like it....
-            </p>
-            <a href="/2018/01/31/welcome-to-the-new-site.html" class="secondary-content"><i class="material-icons">navigate_next</i></a>
-          </li>
-        
-      </ul>
-    </section>
-  </div>
+      <div class="post-content" itemprop="articleBody">
+        <p>Libki r20.11 is offically out!</p>
+
+<p>Libki r20.11 includes Libki Server v4.2.4 and Libki Client v2.2.2</p>
+
+<p>Server release notes:</p>
+
+<p>New Features in r20.11:</p>
+<ul>
+  <li>Add ability to set expiration for troublemaker setting, adds modal with build in notes editor ( for existing user notes ).</li>
+  <li>Begin using semantic versioning for Libki Server ( version has been fixed at 0.01 since the move to Perl Catalyst ).</li>
+  <li>Bump server version to 4.0.0 to indicate breaking changes with r19.08. Before this, Libki Server was considered to be on version 3 since the addition of multi-tenancy.</li>
+  <li>Update install.sh to support Ubuntu 20.04</li>
+  <li>Add client status field. Rather than delete clients from the database when they no longer respond, the new client status field is set to “offline” which is functionally equivilent. Clients may also be suspended to take them out of use without shutting down the Libki client. New buttons have been added to toggle between suspended and online, and to delete offline clients permanently.</li>
+  <li>Add ability to remotely log a Libki client in as a guest from the admin interface. Feature requires client version 2.1.0 or later.</li>
+  <li>Add the ability to set a user category for guests.</li>
+  <li>Add ability for a user to temporarily lock session. This feature is off by default and is enabled via a server setting. Requires Libki client 2.2.0 or later.</li>
+  <li>Add users.creation_source field to tell how a given user was created ( local, SIP, LDAP, etc )</li>
+  <li>Add ability to have separate minutes allotments per-location for each user</li>
+  <li>Add ability to remotely shutdown, restart, and wake-on-lan clients</li>
+  <li>Add ability to set a gap between reservations to give librarians time to disinfect computers between uses</li>
+  <li>Add Norwegian translation</li>
+  <li>Add the ability to wake the client computers by sending wake on LAN packets</li>
+</ul>
+
+<p>Changes in r20.11:</p>
+<ul>
+  <li>Updated Swedish translation.</li>
+  <li>Updated Swedish translation for the new remote unlock feature.</li>
+  <li>Changed styling of the table toolbars</li>
+  <li>Enable translation of client statuses ( Online, Offline, Suspended )</li>
+  <li>Removed use of local unixtime for calculations, resolves issues where the server timezone differs from the Libki timezone</li>
+  <li>Users can no longer delete themselves #162</li>
+  <li>Administrator can now place a reservation for a patron that’s never been authenticated when using SIP #192</li>
+</ul>
+
+<p>Removals in r20.11:</p>
+<ul>
+  <li>Removed the system setting GuestPassFile from the database, the feature hasn’t existed for a long time now. It was replaced with the ability to print batch guest passes on demand directly from the web browser.</li>
+</ul>
+
+<p>Client release notes:</p>
+
+<p>New features in r20.11</p>
+<ul>
+  <li>Add ability to remotely log a Libki client in as a guest from the admin interface. Feature requires server version 4.2.0 or later.</li>
+  <li>Added the ability for users to temporarily lock an active session, in order to step away from the client. Feature is enabled via a setting on the Libki server. Requires Libki Server 4.2.4 or later.</li>
+  <li>Add ability to remotely shutdown, restart, and wake-on-lan clients</li>
+</ul>
+
+<p>Changes in r20.11</p>
+<ul>
+  <li>Bug fix. If banners wasn’t being used, an error message was displayed about it not being able to find the host.</li>
+  <li>Update Norvegian translation</li>
+</ul>
+
+      </div>
+
+      
+    </article>
+    </div>
 </div>
-
-
-</div>
-
+<script>$('.carousel.carousel-slider').carousel({fullWidth: true});</script>
 
       <footer class="page-footer orange">
     <div class="container">
